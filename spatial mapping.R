@@ -37,7 +37,7 @@ p1 <- ggplot(data = merged_data) +
     max.overlaps = 100
   ) +
   
-  # Improved color scale (smooth + publication-friendly)
+  # Improved color scale 
   scale_fill_gradientn(
     name = "Cases",
     colours = c("#2e8b57", "#f4a460", "#ff4500", "#8b0000"),  # smoother gradient
